@@ -35,6 +35,7 @@
                 <label for="Password" class="form-label">Password</label>
                 <input type="password" name="userPass" class="form-control" id="Password" pattern="{5,16}" required>
             </div>
+            <button type="submit" class="btn btn-outline-second">Come back</button>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </section>
