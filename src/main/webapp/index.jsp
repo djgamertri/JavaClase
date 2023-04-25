@@ -28,7 +28,7 @@
             </div>
             <div class="mb-3">
                 <label for="Email" class="form-label">Email</label>
-                <input type="email" name="userEmail" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Example@Example.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                <input type="email" name="userEmail" class="form-control" id="Email" placeholder="Example@Example.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
             <div class="mb-3">
