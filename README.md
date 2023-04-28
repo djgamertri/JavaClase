@@ -1,10 +1,9 @@
-# Formulario en Java avanzado con Bootstrap
+# Formulario avanzado de registro e inicio de sesión en Java con Bootstrap
 
-En esta actividad de Java avanzado, se nos pidió crear un formulario y aplicar estilos utilizando Bootstrap. El formulario se divide en los siguientes campos:
+En esta actividad, se requiere implementar un formulario avanzado de registro e inicio de sesión utilizando Bootstrap. Además, se hará uso de una base de datos MySQL para almacenar la información.
 
-- Nombre (Name)
-- Apellido (Last Name)
-- Correo electrónico (Email)
-- Contraseña (Password)
+Para llevar a cabo este proyecto, se necesita tener conocimientos previos en programación con Java y en el uso de Bootstrap y MySQL. El formulario tendrá una apariencia similar a la siguiente imagen:
 
-Para añadir Bootstrap, hemos utilizado los CDN proporcionados por la propia biblioteca. El resultado final es un formulario elegante y fácil de usar.
+![image](https://user-images.githubusercontent.com/95003267/235165765-6e7c5307-3378-41e7-8c4d-b0a9f24d01b4.png)
+
+Para subir este proyecto a GitHub, siga los siguientes pasos:
