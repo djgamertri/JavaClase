@@ -5,9 +5,9 @@ import java.sql.SQLException;
 import org.apache.commons.dbcp2.BasicDataSource;
 
 public class DBConenection {
-    private static final String URL = "jdbc:mysql://aws.connect.psdb.cloud/javaclass?sslMode=VERIFY_IDENTITY";
-    private static final String USER = "pb5s8msc3re2lri4hak9";
-    private static final String PASS = "main-2023-apr-27-bkfupy";
+    private static final String URL = "jdbc:mysql://localhost:3306/JavaClass?serverTimezone=America/Bogota";
+    private static final String USER = "UserDataBase";
+    private static final String PASS = "C0d1g034_";
     private static BasicDataSource pool;
 
     public static BasicDataSource getInstance() throws SQLException{
