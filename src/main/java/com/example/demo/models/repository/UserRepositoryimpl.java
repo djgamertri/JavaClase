@@ -18,6 +18,7 @@ public class UserRepositoryimpl implements Repository<User>{
         user.setUser_firtsname(rs.getString("user_firtsname"));
         user.setUser_lastname(rs.getString("user_lastname"));
         user.setUser_email(rs.getString("user_email"));
+        user.setUser_password(rs.getString("user_password"));
         return user;
     }
 

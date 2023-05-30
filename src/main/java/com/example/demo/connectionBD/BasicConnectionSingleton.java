@@ -4,8 +4,8 @@ import java.sql.*;
 
 public class BasicConnectionSingleton {
     private static String url = "jdbc:mysql://localhost:3306/JavaClass?serverTimezone=America/Bogota";
-    private static String user = "root";
-    private static String pass = "";
+    private static String user = "UserDataBase";
+    private static String pass = "C0d1g034_";
     private static Connection conn;
     
     public static Connection getInstance() throws SQLException {
