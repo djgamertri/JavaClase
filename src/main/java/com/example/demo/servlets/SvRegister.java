@@ -30,10 +30,18 @@ public class SvRegister extends HttpServlet {
         userInsert.setUser_email(userEmail);
         userInsert.setUser_password(userPass);
         
+        int rows = 0;
+
         try {
-            repository.saveObj(userInsert);
+            rows = repository.saveObj(userInsert);
         } catch (SQLException e) {
             e.printStackTrace();
+        }
+
+        if(rows == 0){
+            System.out.println("Ocurrio un error");
+        }else{
+            req.getRequestDispatcher("./Successful.jsp").forward(req, resp);
         }
     }
 }

@@ -22,7 +22,7 @@
                 <h2 class="text-xl font-semibold mb-6">Registro de usuarios</h2>
                 <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="Imagen de ejemplo" class="h-40">
             </div>
-            <form action="/UserRegister">
+            <form action="./UserRegister" method="post">
                 <div class="mb-4">
                     <label for="Name" class="block text-gray-700 text-sm font-bold mb-2">Nombre:</label>
                     <input type="text" id="Name" name="UserName" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-indigo-500" placeholder="Ingrese el nombre de la categoría" pattern="[A-Za-z]{2,40}" required>

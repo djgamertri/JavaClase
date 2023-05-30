@@ -1,7 +1,10 @@
 package com.example.demo.servlets;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.sql.SQLException;
+
+import org.w3c.dom.TypeInfo;
 
 import com.example.demo.models.Product;
 import com.example.demo.models.repository.ProductRepositoryimpl;
@@ -20,22 +23,27 @@ public class ProductRegister extends HttpServlet{
         Repository<Product> repository = new ProductRepositoryimpl();
 
         String NameProduct = req.getParameter("NameProduct");
-        String ValueProduct = req.getParameter("ValueProduct");
-        String CategoryProduct = req.getParameter("CategoryProduct");
-        
-        int intValueProduct = Integer.parseInt(ValueProduct);
-        int intCategoryProduct = Integer.parseInt(CategoryProduct);
+        Integer ValueProduct = Integer.valueOf(req.getParameter("ValueProduct"));
+        Integer CategoryProduct = Integer.valueOf(req.getParameter("CategoryProduct"));
 
         Product productInsert = new Product();
 
         productInsert.setProduct_name(NameProduct);
-        productInsert.setProduct_values(intValueProduct);
-        productInsert.setCategory_id(intCategoryProduct);
+        productInsert.setProduct_values(ValueProduct);
+        productInsert.setCategory_id(CategoryProduct);
+        
 
+        int rows = 0;
         try {
-            repository.saveObj(productInsert);
+           rows = repository.saveObj(productInsert);
         } catch (SQLException e) {
             e.printStackTrace();
+        }
+
+        if(rows == 0){
+            System.out.println("Ocurrio un error");
+        }else{
+            req.getRequestDispatcher("./Successful.jsp").forward(req, resp);
         }
     }
 }

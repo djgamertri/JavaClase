@@ -24,10 +24,17 @@ public class CategoryRegister extends HttpServlet{
 
         categoryInsert.setCategory_name(NameCategory);
         
+        int rows = 0;
         try {
-            repository.saveObj(categoryInsert);
+            rows = repository.saveObj(categoryInsert);
         } catch (SQLException e) {
             e.printStackTrace();
+        }
+        
+        if(rows == 0){
+            System.out.println("Ocurrio un error");
+        }else{
+            req.getRequestDispatcher("./Successful.jsp").forward(req, resp);
         }
     }
 }
