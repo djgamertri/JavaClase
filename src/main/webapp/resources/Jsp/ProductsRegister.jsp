@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -21,7 +22,7 @@
           <h2 class="text-xl font-semibold mb-6">Registro de productos</h2>
           <img src="https://cdn-icons-png.flaticon.com/512/1170/1170679.png" alt="Imagen de ejemplo" class="h-40">
       </div>
-      <form>
+      <form action="/ProductRegister" method="post">
         <div class="mb-4">
           <label for="NameProduct" class="block text-gray-700 text-sm font-bold mb-2">Nombre del Producto:</label>
           <input type="text" id="NameProduct" name="NameProduct" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-indigo-500" placeholder="Leche" pattern="[A-Za-z]{2,40}" required>

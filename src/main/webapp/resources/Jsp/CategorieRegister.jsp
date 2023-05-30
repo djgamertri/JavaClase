@@ -1,3 +1,4 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -21,7 +22,7 @@
           <h2 class="text-xl font-semibold mb-6">Registro de categoría</h2>
           <img src="https://cdn.icon-icons.com/icons2/2406/PNG/512/tags_categories_icon_145927.png" alt="Imagen de ejemplo" class="h-40">
       </div>
-      <form>
+      <form action="/CategoryRegister" method="post">
         <div class="mb-4">
           <label for="category" class="block text-gray-700 text-sm font-bold mb-2">Nombre de Categoría:</label>
           <input type="text" id="NameCategory" name="category" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-indigo-500" placeholder="Ingrese el nombre de la categoría" required>
