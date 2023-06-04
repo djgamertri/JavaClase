@@ -13,6 +13,9 @@
     
     <title>Java Project - 2687350</title>
 </head>
+
+<jsp:include page="./Header.jsp"/>
+
 <body class="flex items-center justify-center bg-gray-100">
     <div class="w-full max-w-md">
       <div class="bg-white p-8 border border-gray-300">
@@ -40,5 +43,8 @@
         </form>
       </div>
     </div>
-  </body>
+</body>
+
+  <jsp:include page="./Footer.jsp"/>
+
 </html>
