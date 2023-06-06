@@ -16,8 +16,8 @@
 
 <%@include file="./Header.jsp"%>
 
-<body class="flex items-center justify-center bg-gray-100">
-    <div class="flex justify-center flex-col items-center mb-6">
+<body class="bg-gray-100">
+    <div class="flex justify-center flex-col items-center mb-6" style="height: 83vh;">
         <img src="https://cdn-icons-png.flaticon.com/512/148/148767.png" class="h-80">
         <h1 class="text-5xl font-semibold mb-6">Registro Exitoso</h2>
     </div>

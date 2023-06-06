@@ -41,7 +41,7 @@ public class SvRegister extends HttpServlet {
         if(rows == 0){
             System.out.println("Ocurrio un error");
         }else{
-            req.getRequestDispatcher("./Successful.jsp").forward(req, resp);
+            resp.sendRedirect("./Successful");
         }
     }
 }
