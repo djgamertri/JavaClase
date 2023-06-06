@@ -1,10 +1,7 @@
 package com.example.demo.servlets;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.sql.SQLException;
-
-import org.w3c.dom.TypeInfo;
 
 import com.example.demo.models.Product;
 import com.example.demo.models.repository.ProductRepositoryimpl;
