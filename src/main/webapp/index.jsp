@@ -15,7 +15,7 @@
     <title>Java Project - 2687350</title>
 </head>
 
-<jsp:include page="./Header.jsp"/>
+<%@include file="jsp/Header.jsp"%>
 
 <body class="bg-gray-100">
     <div class="w-2/5 flex items-center justify-center w-screen" style="height: 86vh;">
@@ -56,6 +56,5 @@
     </div>
 </body>
 
-<jsp:include page="./Footer.jsp"/>
-
+<%@include file="/jsp/Footer.jsp"%>
 </html>

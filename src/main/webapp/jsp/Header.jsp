@@ -9,9 +9,9 @@
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-4">
               <a href="./index.jsp" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Registro</a>
-              <a href="./Login.jsp" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Ingreso</a>
-              <a href="./ProductRegister.jsp" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Registro de productos</a>
-              <a href="./CategoryRegister.jsp" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Registro de categorias</a>
+              <a href="./Login" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Ingreso</a>
+              <a href="./Register-Product" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Registro de productos</a>
+              <a href="./Register-Category" class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Registro de categorias</a>
             </div>
           </div>
         </div>

@@ -15,7 +15,7 @@
   <title>Java Project - 2687350</title>
 </head>
 
-<jsp:include page="./Header.jsp"/>
+<%@include file="./Header.jsp"%>
 
 <body class="bg-gray-100">
   <div class="flex items-center justify-center w-screen" style="height: 86vh;">
@@ -27,7 +27,7 @@
         </div>
         <form action="./CategoryRegister" method="post">
           <div class="mb-4">
-            <label for="category" class="block text-gray-700 text-sm font-bold mb-2">Nombre de Categoría:</label>
+            <label for="NameCategory" class="block text-gray-700 text-sm font-bold mb-2">Nombre de Categoría:</label>
             <input type="text" id="NameCategory" name="NameCategory" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-indigo-500" placeholder="Ingrese el nombre de la categoría" required>
           </div>
           <div class="flex justify-around">
@@ -44,6 +44,6 @@
   </div>
 </body>
 
-<jsp:include page="./Footer.jsp"/>
+<%@include file="./Footer.jsp"%>
 
 </html>
