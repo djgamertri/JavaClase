@@ -9,19 +9,12 @@ Para utilizar estos métodos, es necesario contar con los siguientes requisitos:
 
 ## Repository 
 
-En esta carpeta encontrara todos repositorys correspondientes al Taller 7
-
-- [Repository´s](/src/main/java/com/example/demo/models/repository):
+- [Repository´s](/src/main/java/com/example/demo/models/repository): En esta carpeta encontrara todos repositorys correspondientes al Taller 7
 
 ## Java Web Templates
 
-En esta carpeta encontrara todos los templates que use durante el desarrollo de este proyecto correspondiente al Taller 8
-src/main/webapp/jsp
-
-- [Templates](/src/main/webapp/jsp):
+- [Templates](/src/main/webapp/jsp): En esta carpeta encontrara todos los templates que use durante el desarrollo de este proyecto correspondiente al Taller 8
 
 ## Forwarding, Redirection
 
-En esta carpeta encontrara todos los archivos de Forwarding correspondientes al Taller 9
-
-- [Forward´s](/src/main/java/com/example/demo/servlets):
+- [Forward´s](/src/main/java/com/example/demo/servlets): En esta carpeta encontrara todos los archivos de Forwarding correspondientes al Taller 9
