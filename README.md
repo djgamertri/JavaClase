@@ -1,28 +1,27 @@
-# Conexión con la base de datos
+# Entrega Final
 
-En este repositorio se presenta un conjunto de métodos para establecer una conexión con una base de datos MySQL. Además, se utiliza el método de encriptación `aes_encrypt` para guardar contraseñas de manera segura.
+En este repositorio encontrara el codigo relacionado al Taller 7, 8 y 9 de Java Avanzado
 
 Para utilizar estos métodos, es necesario contar con los siguientes requisitos:
 
 - Tener instalado MySQL en el equipo o servidor donde se ejecutará el código.
 - Tener acceso a una base de datos MySQL con permisos de lectura y escritura.
 
+## Repository 
 
-## Añadidos
+En esta carpeta encontrara todos repositorys correspondientes al Taller 7
 
-Además, se haceuso del método `aes_encrypt` para encriptar las contraseñas antes de guardarlas en la base de datos. Esto garantiza que las contraseñas no puedan ser obtenidas en caso de que la base de datos sea vulnerada.
+- [Repository´s](/src/main/java/com/example/demo/models/repository):
 
-## DataBase
-![image](https://user-images.githubusercontent.com/95003267/236593151-8e108e19-a698-46eb-a29b-1f725e443ca3.png)
+## Java Web Templates
 
-## Basic conection
-![image](https://user-images.githubusercontent.com/95003267/236592738-95077666-e948-43fa-a37a-402f3d65a472.png)
+En esta carpeta encontrara todos los templates que use durante el desarrollo de este proyecto correspondiente al Taller 8
+src/main/webapp/jsp
 
-## Singleton
-![image](https://user-images.githubusercontent.com/95003267/236592817-d037d009-9616-4566-b61b-fb882bb1bb17.png)
+- [Templates](/src/main/webapp/jsp):
 
-## With Resources
-![image](https://user-images.githubusercontent.com/95003267/236592957-0eb006fb-3fdd-4692-b791-e1e3c0eb192c.png)
+## Forwarding, Redirection
 
-## Pool
-![image](https://user-images.githubusercontent.com/95003267/236592990-63c0456f-f2d4-40d4-805d-c012ce1332f7.png)
+En esta carpeta encontrara todos los archivos de Forwarding correspondientes al Taller 9
+
+- [Forward´s](/src/main/java/com/example/demo/servlets):
